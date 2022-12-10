@@ -6,7 +6,7 @@
         font-size: 13px;
     }
     header{
-        height: 70vh;
+        height: 80vh;
         width: auto;
         background: linear-gradient(rgba(66, 89, 192, 0.788), rgba(66, 89, 192, 0.788)), url(../img/firends2.jpg);
         background-size: cover;
@@ -20,13 +20,13 @@
         top: 25vh;
     }
     .allMansection{
-        height: 180vh;
+        height: 250vh;
     }
     .smallmanScetion{
-        height: 190vh;
+        height: 270vh;
     }
     .LAmaneWeb{
-        height: 180vh;
+        height: 250vh;
     }
     .formSection{
         width: 100%;
