@@ -1,0 +1,43 @@
+@media only screen and (max-width: 360px) {
+    .mainHead li{
+        margin: 8px 10px;
+    }
+    .mainHead li a{
+        font-size: 13px;
+    }
+    header{
+        height: 70vh;
+        width: auto;
+        background: linear-gradient(rgba(66, 89, 192, 0.788), rgba(66, 89, 192, 0.788)), url(../img/firends2.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+    }
+    .HeaderText{
+        width: 300px;
+        height: 200px;
+        left: 10%;
+        top: 25vh;
+    }
+    .allMansection{
+        height: 180vh;
+    }
+    .smallmanScetion{
+        height: 190vh;
+    }
+    .LAmaneWeb{
+        height: 180vh;
+    }
+    .formSection{
+        width: 100%;
+        height: 60vh;
+    }
+    .fromTxt{
+        margin-top: 4px;
+    }
+    form{
+        width: 250px;
+        height: 350px;
+        margin-left: 40px;
+    }
+}

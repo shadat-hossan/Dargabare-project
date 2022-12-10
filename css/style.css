@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Titillium Web', sans-serif;
+}
+.mainHead li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px 15px;
+}
+nav{
+    background-color: rgba(220, 220, 220, 0.822);
+    text-align: center;
+}
+.mainHead li a{
+    text-decoration: none;
+    color: rgb(75, 74, 74);
+}
+header{
+    height: 80vh;
+    width: auto;
+    background: linear-gradient(rgba(66, 89, 192, 0.788), rgba(66, 89, 192, 0.788)), url(../img/firends.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.headerSecktion{
+    position: relative;
+
+}
+.HeaderText{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 40%;
+    top: 30vh;
+    color: rgb(223, 215, 215);
+}
+.HeaderText h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 7px;
+    letter-spacing: 2px;
+}
+.ourColor{
+    color: #fbc21a;
+}
+.firendscolor{
+    color: #33ca7e;
+}
+.HeaderText p{
+    line-height: 25px;
+}
+.allMansection{
+    height: 60vh;
+    width: 100%;
+    background: linear-gradient(rgba(23, 194, 163, 0.8), rgba(23, 194, 163, 0.8)), url(../img/2img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.Wro{
+    display: inline-block;
+    padding: 10px 40px;
+    text-align: center;
+}
+.imgMan{
+    width: 200px;
+    height: 300px;
+    border: 1px solid #333;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 35px;
+    box-shadow: 3px 3px rgba(51, 51, 51, 0.582);
+    
+}
+.imgMan img{
+    width: 200px;
+    height: auto;
+    
+}
+.manoUL li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+}
+.manoUL li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(53, 97, 163);
+}
+.manoUL li:active a{
+    color: rgb(253, 253, 253);
+}
+.manText h4{
+    color: rgb(255, 254, 254);
+    font-size: 16px;
+}
+.manText p{
+    font-size: 15px;
+    font-weight: 200;
+    color: rgb(226, 225, 225);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.padding{
+    padding-top: 0px;
+}
+.mantextBox{
+    text-align: center;
+    margin-top: 20px;
+}
+.mantextBox h2{
+    color: aliceblue;
+    letter-spacing: 2px;
+    padding-bottom: 8px;
+}
+.mantextBox p{
+    color: #8e9397;
+}
+.smallmanScetion{
+    width: 100%;
+    height: 65vh;
+    background: linear-gradient(rgba(230, 124, 124, 0.8), rgba(230, 124, 124, 0.8)), url(../img/amallimg.jpg);
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.LAmaneWeb{
+    width: 100%;
+    height: 55vh;
+    background: linear-gradient(rgba(6, 201, 94, 0.712),rgba(6, 201, 94, 0.712)), url(../img/BAckgrimg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+}
+.footer{
+    background: #8e9397;
+}
+.footer li a{
+    padding: 5px;
+}
+.footer li:hover a{
+    transition: 0.5s;
+    background: #fff;
+    color: #333;
+    border-radius: 10px;
+}
+
+/*=====================
+=== contack from disin 
+===================== */
+.formSection{
+    width: 100%;
+    height: 100vh;
+    background: #1aa8fb;
+    overflow: hidden;
+    color: aliceblue;
+}
+.fromTxt{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+form{
+    width: 250px;
+    height: 350px;
+    margin-left: 400px;
+    
+}
